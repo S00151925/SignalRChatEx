@@ -11,7 +11,7 @@ namespace ChatClient
     {
         static string name; // Program Class Variable
         static IHubProxy proxy;
-        static HubConnection connection = new HubConnection("http://localhost:4960");
+        static HubConnection connection = new HubConnection("http://s00151925chatex.azurewebsites.net");
         
 
         static void Main(string[] args)
